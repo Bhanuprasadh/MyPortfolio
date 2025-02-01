@@ -208,7 +208,7 @@ span {
 }
 
 .text-animation span::before {
-  content: "DevOps Engineer";
+  content: "Software Engineer";
   color: var(--main-color);
   animation: words 15s steps(14) infinite;
 }
@@ -232,11 +232,11 @@ span {
 
 @keyframes words {
   0% {
-    content: "DevOps Engineer";
+    content: "Software Engineer";
   }
 
   33% {
-    content: "Python Developer";
+    content: "Software Engineer";
   }
 
   66% {
@@ -634,8 +634,8 @@ span {
 }
 
 .techno img {
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 80px;
   border-radius: 5px;
   flex-shrink: 0;
 }
